@@ -1,7 +1,7 @@
 #ifndef __ERROR__
 #define __ERROR__
 
-#include<stdexcept>
+#include <stdexcept>
 
 void error(const std::string& message){
     throw std::runtime_error(message);
